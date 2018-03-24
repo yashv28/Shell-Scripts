@@ -1,12 +1,13 @@
 Shell Scripts
 =============
 
-# YouTube Downloader(ydl.sh)
+### YouTube Downloader(ydl.sh)
 Simple YouTube video/audio downloader.
+
 Prereqs: pip package "youtube-dl".
 
-# winetricks
+### winetricks
 Collection of tricks/tweaks for Wine.
 
-# ya.sh
+### ya.sh
 By me, for me.
