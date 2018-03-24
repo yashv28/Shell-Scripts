@@ -10,7 +10,7 @@ elif [ \$1 = \"--help\" ]; then
 fi
 ID=\${1:\${#1}-11:\${#1}};
 if [ -z \$2 ]; then 
-	youtube-dl \$1;
+	youtube-dl \$1 || exit;
 elif [ \$2 = \"audio\" ]; then
 	youtube-dl -x --audio-format mp3 --audio-quality 0 \$1;
 elif [ \$2 = \"240\" ]; then
