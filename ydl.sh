@@ -38,4 +38,4 @@ fi
 FILE=\"ls |grep \$ID\"
 FILE=\`eval \$FILE\`
 mv \"\`echo \$FILE\`\" ~/Downloads/\"\`echo \$FILE\`\"
-rename \"\s/-\$ID\S/./\" * ~/Downloads/\"\$FILE\"" | sudo tee /bin/ydl && sudo chmod 755 /bin/ydl
+rename \"\s/-\$ID\S/./\" * ~/Downloads/\"\$FILE\"" | sudo tee /bin/ydl > /dev/null && sudo chmod 755 /bin/ydl

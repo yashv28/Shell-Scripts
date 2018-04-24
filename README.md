@@ -15,3 +15,11 @@ Collection of tricks/tweaks for Wine.
 
 ### ya.sh
 By me, for me.
+
+### FixBootSplash.sh
+Fixes the disappeared boot logo and Esc-key boot sequence after kernel upgrade.
+
+### wifi.sh
+Gets WiFi working from terminal, when NeworkManager(GUI) can't be accessed.
+* Run iwconfig to know about wireless $INTERFACE
+* $1: SSID, $2: Key
