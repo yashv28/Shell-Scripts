@@ -10,9 +10,6 @@ Formats: ydl [URL] -F
 
 Prereqs: pip package "youtube-dl".
 
-### winetricks
-Collection of tricks/tweaks for Wine.
-
 ### ya.sh
 By me, for me.
 
